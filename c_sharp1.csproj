@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>c_sharp1.TestClass</StartupObject>
+    <StartupObject>Inheritance.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
