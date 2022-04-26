@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace Inheritance
+namespace c_sharp1
 {
 
-    class RegularPolygon
+    public class RegularPolygon
     {
 
         public void calculatePerimeter(int length, int sides)

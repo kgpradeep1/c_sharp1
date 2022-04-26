@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PrintFloydsTriangle
+namespace c_sharp1
 {
     class Program
     {

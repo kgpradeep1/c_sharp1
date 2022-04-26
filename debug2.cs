@@ -1,5 +1,5 @@
 ﻿using System;
-namespace SwapExample
+namespace c_sharp1
 {
     class swap
     {

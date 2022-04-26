@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Concepts
+namespace c_sharp1
 {
     /// <summary>
     /// INTERFACE-keyword interface-group of abstract methods and properties,no variables

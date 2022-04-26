@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ErrorHandlingApplication
+namespace c_sharp1
 {
     class DivNumbers
     {
@@ -26,7 +26,7 @@ namespace ErrorHandlingApplication
         static void Main()
         {
             DivNumbers d = new DivNumbers();
-            d.division(30,12);
+            d.division(30, 12);
             Console.ReadKey();
         }
     }

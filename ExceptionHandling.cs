@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Concepts
+namespace c_sharp1
 {
     /// <summary>
     /// STEP 1-Create a user-defined exception that inherits the base class EXCEPTION
@@ -23,12 +23,12 @@ namespace CSharp_Concepts
             int age_count;
             try
             {
-                
+
                 Console.WriteLine("Enter the age");//14
                 age_count = Convert.ToInt32(Console.ReadLine());
                 if (age_count < 18 && age_count > 18)
                 {
-                    throw (new TrackerException("not eligible"));
+                    throw new TrackerException("not eligible");
                 }
                 else
                 {

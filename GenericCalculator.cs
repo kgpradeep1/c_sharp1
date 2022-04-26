@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Dynamic;
 using System.Collections.Generic;
 
-namespace Generic
+namespace c_sharp1
 {
     public class Calculator<T>   //Generic Class:
     {

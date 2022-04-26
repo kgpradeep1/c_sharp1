@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Abstract1
+namespace c_sharp1
 {
     public abstract class Plan
     {
@@ -40,7 +40,7 @@ namespace Abstract1
             p = new DomesticlPlan();
             p.getRate();
             p.calculation(150);
-            
+
         }
     }
 }

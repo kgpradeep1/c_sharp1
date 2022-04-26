@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Concepts
+namespace c_sharp1
 {
     internal class Strings
     {
@@ -32,7 +32,7 @@ namespace CSharp_Concepts
             //character array
             char[] designation = { 'A', 'D', 'M', 'I', 'N' };
             //Pass the character array to String Class
-            String des = new String(designation);
+            string des = new string(designation);
             Console.WriteLine("Designation passed to String class:{0}", des);
             //Pass the character  array to the string datatype
             string des1 = new string(designation);

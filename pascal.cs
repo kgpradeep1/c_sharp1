@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-namespace PascalTriangle
+namespace c_sharp1
 {
     class PascalTriangle
     {
         static void Main()
 
         {
-            System.Console.WriteLine("Pascal Triangle Program");
+            Console.WriteLine("Pascal Triangle Program");
 
-            System.Console.Write("Enter the number of rows: ");
+            Console.Write("Enter the number of rows: ");
 
-            string input = System.Console.ReadLine();
+            string input = Console.ReadLine();
 
             int n = Convert.ToInt32(input);
 
@@ -25,7 +25,7 @@ namespace PascalTriangle
 
                 {
 
-                    System.Console.Write("   ");
+                    Console.Write("   ");
 
                 }
 
@@ -33,15 +33,15 @@ namespace PascalTriangle
 
                 {
 
-                    System.Console.Write("   {0:D} ", c);
+                    Console.Write("   {0:D} ", c);
 
                     c = c * (y - x) / (x + 1);
                 }
-                System.Console.WriteLine();
+                Console.WriteLine();
 
-                System.Console.WriteLine();
+                Console.WriteLine();
             }
-            System.Console.WriteLine();
+            Console.WriteLine();
 
         }
 
